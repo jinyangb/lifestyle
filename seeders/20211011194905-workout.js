@@ -69,11 +69,47 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/w5rNqro',
+          img: 'https://imgur.com/BJITw0t',
           type: 'Weight Training',
           title: 'Biceps Curl',
           description:
             'Stand with dumbbells by your sides, palms facing forwards. Keeping your elbows tucked in, curl the weights up, squeezing your biceps at the top. Lower them back to the start.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/B8cnTvo',
+          type: 'Weight Training',
+          title: 'Back Squat',
+          description:
+            'Stand tall, holding a bar across the back of your shoulders. Keeping your chest up and core braced, squat down as deep as you can. Drive back up through your heels to return to the start.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/DFU0iCr',
+          type: 'Weight Training',
+          title: 'Seated Dumbbell Press',
+          description:
+            'Sit on an upright bench with a dumbbell in each hand at shoulder height. Keeping your chest up, press the weights directly overhead until your arms are straight, then lower them back to the start.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/Q3mQEur',
+          type: 'Weight Training',
+          title: 'Lateral Raise',
+          description:
+            'Stand tall, holding a light dumbbell in each hand with palms facing. Keeping your chest up and a bend in your elbows, raise the weights out to shoulder height, then lower back to the start.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/6WmNu2K',
+          type: 'Weight Training',
+          title: 'Reverse Flye',
+          description:
+            'Bend forward from the hips holding a light dumbbell in each hand with palms facing. Keeping a slight bend in your elbows, raise the weights out to shoulder height, then lower back to the start.',
           createdAt: new Date(),
           updatedAt: new Date()
         }
