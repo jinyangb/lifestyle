@@ -24,11 +24,29 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/q64p0Vq',
+          img: 'https://imgur.com/AegXzVh',
           type: 'Weight Training',
           title: 'Incline Dumbbell Press',
           description:
             'Lie on an incline bench holding a dumbbell in each hand by your shoulders. Press the weights up until your arms are straight, then lower them back to the start under control.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/qNVVI4u',
+          type: 'Weight Training',
+          title: 'Incline Dumbbell Flye',
+          description:
+            'Lie on an incline bench holding a dumbbell in each hand above your face, with your palms facing and a slight bend in your elbows. Lower them to the sides, then bring them back to the top.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/wa2pi7U',
+          type: 'Weight Training',
+          title: 'Tricep Extension',
+          description:
+            'Stand tall holding a dumbbell over your head with both hands, arms straight. Keeping your chest up, lower the weight behind your head, then raise it back to the start.',
           createdAt: new Date(),
           updatedAt: new Date()
         }
