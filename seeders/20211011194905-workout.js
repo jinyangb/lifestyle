@@ -15,11 +15,11 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/V3DrJPM',
-          type: 'Weight Training',
-          title: 'Bench Press',
+          img: 'https://imgur.com/q64p0Vq',
+          type: 'Body Weight Training',
+          title: 'Triceps Dip',
           description:
-            'Lie on a flat bench holding a barbell with your hands slightly wider than shoulder-width apart. Brace your core, then lower the bar towards your chest. Press it back up to the start.',
+            'Grip rings or parallel bars with your arms straight. Keeping your chest up, bend your elbows to lower your body as far as your shoulders allow. Press back up powerfully to return to the start.',
           createdAt: new Date(),
           updatedAt: new Date()
         }
