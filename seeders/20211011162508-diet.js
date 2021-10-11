@@ -121,13 +121,22 @@ module.exports = {
             'Ingredients: 500g potatoes, peeled, chopped, 500g butternut pumpkin, peeled, chopped, 1 long red chilli, seeds removed, finely chopped, 20g unsalted butter, 4 x 150g rump steaks, trimmed, 1 tbs wholegrain mustard, 1 cup (250ml) salt-reduced beef stock, 2 cups baby spinach leaves. Directions: 1) Steam the potato and pumpkin in a steamer set over a pan of simmering water for 12-15 minutes until tender. 2) Drain water from the saucepan and wipe dry. Return pumpkin and potato to the pan and shake gently over low heat for 30 seconds to dry out the mixture a bit. Add the chilli and butter with some sea salt and freshly ground black pepper, then mash until smooth. Keep warm. 3) Meanwhile, season steaks with salt and pepper. Heat a large non-stick frypan over medium-high heat, add steaks and cook for 2-3 minutes each side for medium-rare (or until done to your liking). Remove the steaks from the pan, cover loosely with foil and set aside while you make the sauce. 4) Return the frypan to medium-high heat, add the mustard and stock and simmer for 2-3 minutes until the liquid has reduced by about half. 5) Serve the beef and mash with the mustard sauce and baby spinach.',
           createdAt: new Date(),
           updatedAt: new Date()
-        }
+        },
         {
           img: 'https://imgur.com/vUTi76b',
           type: 'Meat',
           title: 'Chopped Chilli Chicken Stir Fry',
           description:
             'Ingredients: 1/4 cup (60ml) peanut or sunflower oil, 250g purple eggplants, chopped if large, 100g pea eggplants (from Asian grocers), blanched, 1 bunch spring onion, sliced, 1/4 cup (75g) gluten-free chilli paste or chilli sauce, 2 long red chillies, thinly sliced, 1 bunch Thai basil, leaves picked, 500g chicken mince, Steamed rice, to serve, Fried eggs, to serve. Directions: 1) Heat 2 tbs oil in a wok or large frypan over medium-high heat. Add eggplants, season and cook, stirring, for 3-4 minutes until golden. Remove from pan and set aside. Return pan to medium-high heat with remaining 1 tbs oil. Cook onion, chilli paste and half the chilli and basil, stirring, for 2-3 minutes until softened. Add chicken and cook, breaking up with a spoon, for 10 minutes or until browned. Return the eggplant to pan and toss to warm through. 2) Divide rice, chicken and eggs among plates. Top with remaining basil and chilli.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/vUTi76b',
+          type: 'Meat',
+          title: 'Rum and Maple Steak with 2 Minute Fries',
+          description:
+            'Ingredients: 3 large golden delight or sebago potatoes, peeled, Sunflower oil, to shallow-fry, 800g beef flank steak, 2 tbs extra virgin olive oil, 1/4 cup (60ml) dark rum, 1/4 cup (60ml) maple syrup, 1 tbs each apple cider vinegar and wholegrain mustard. Directions: 1) To make the fries, grate potato into long strips using the coarse side of a box grater. Place in a clean tea towel and squeeze to extract excess liquid. Heat 2cm sunflower oil in a heavy-based frypan over medium-high heat. Fry potato, in batches, for 2 minutes or until crisp, then drain on paper towel. Keep warm. 2) Drizzle steak with olive oil and season. Heat a heavy-based frypan over high heat, then add steak and cook for 3-4 minutes each side until slightly charred. Combine rum, maple syrup, vinegar and mustard in a bowl, then add to pan and cook steak, basting with sauce, for a further 1 minute each side or until glazed. Remove from pan and rest, loosely covered with foil, for 5 minutes. Cook sauce for a further 1 minute or until reduced and thickened. 3) Thinly slice steak, then drizzle generously with sauce and serve with fries.',
           createdAt: new Date(),
           updatedAt: new Date()
         }
