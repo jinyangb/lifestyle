@@ -49,6 +49,15 @@ module.exports = {
             'Ingredients: 12 ounces tempeh, cut into small cubes, 2 tablespoons reduced-sodium tamari, 1/4 cup mirin, 2 cloves garlic, finely chopped, 1 (2.5-pound) spaghetti squash, halved lengthwise and seeded, 1 tablespoon canola oil, 1 (25.0-ounce) jar pasta sauce, 2 cups small broccoli florets, 1 cup packed baby spinach. Directions: 1) Preheat the oven to 375°F. 2) In a medium bowl, gently toss together tempeh, tamari, mirin and garlic; set aside to let marinate for 30 minutes. 3) Meanwhile, arrange squash halves, cut sides down, in a large baking dish. 4) Pour 1/2 cup water into dish and bake until just tender, 30 to 45 minutes. 5) Remove from oven, turn over squash and set aside to let cool slightly. 6) Heat oil in a large skillet over medium high heat. 7) Drain tempeh, then add it to the skillet and cook, stirring occasionally, until golden brown, 7 to 8 minutes; transfer to a plate and keep warm. 8) Meanwhile, heat pasta sauce in a medium saucepan over medium heat until hot throughout then add broccoli and cook until just tender, about 5 minutes. 9) Stir in spinach and remove pot from the heat. 10) Using a fork, scrape strands of spaghetti squash onto a serving platter. Spoon hot pasta sauce and broccoli over squash, top with tempeh and serve.',
           createdAt: new Date(),
           updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/YI7xnja',
+          type: 'Vegetarian',
+          title: 'Shakshuka',
+          description:
+            'Ingredients: 1 tbsp of olive oil, shallot, diced, 2 cloves of garlic, minced, 1 bell pepper, diced, 1 28oz can of plum tomatoes, 1/4 tsp salt, 1/4 tsp cumin, 1/4 tsp paprika, 1 chipotle pepper in adobo sauce, 4 eggs, feta cheese, parsley to garnish, chopped baby spinach to garnish. Directions: 1) Add a tbsp of olive oil to a large sauté pan 2) On low-medium heat, add your diced shallot and let cook for about 2 minutes. Add a pinch of salt to let it sweat. 3) Add your garlic and let it cook for about 1 minute more. Do not let the garlic burn. 4) Add your can of tomatoes and bell pepper and mix all ingredients together. 5) Add salt, cumin, paprika, and chipotle pepper. 6) Turn heat down to low and cover pan. Let simmer for about 30 minutes or until tomatoes cook down. Stir occasionally. 7) Once the tomatoes have cooked down, use a wooden spoon to carve out a little hole for the first egg in the sauce. Crack the egg and carefully fill it in the hole. Repeat with 3 other eggs. 8) Cover with lid and let eggs cook for about 8 minutes or until the whites of the eggs have cooked. 9) Garnish with chopped parsley, spinach, and feta and serve.',
+          createdAt: new Date(),
+          updatedAt: new Date()
         }
       ],
       {}
