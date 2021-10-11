@@ -1,30 +1,6 @@
 const { Discussions } = require('../models')
 const { Op, literal, fn, col } = require('sequelize')
 
-// const GetPopularComments = async (req, res) => {
-//   try {
-//     const popular = await Comments.findAll({
-//       order: [['likes', 'DESC']], //Order By Likes in descending order
-//       attributes: [
-//         // Select Specific Attributes
-//         'id',
-//         'content',
-//         'likes',
-//         [fn('COUNT', col('posts.id')), 'postCount'] //Count amount of associated comments
-//       ],
-//       where: { likes: { [Op.gt]: 3000 } }, // Where likes is greater than 3000
-//       include: [
-//         { model: User, as: 'owner', attributes: ['name', 'id'] },
-//         { model: Posts, as: 'posts', attributes: [] } //Leave attributes empty, we only need the model to execute the count
-//       ],
-//       group: ['Posts.id', 'owner.id'] // Group the information by it's respective id
-//     })
-//     res.send(popular)
-//   } catch (error) {
-//     throw error
-//   }
-// }
-
 const GetRecentDiscussions = async (req, res) => {
   try {
     const recents = await Discussions.findAll({
@@ -83,7 +59,6 @@ const DeleteDiscussion = async (req, res) => {
 }
 
 module.exports = {
-  // GetPopularComments,
   GetRecentDiscussions,
   GetDiscussionDetails,
   CreateDiscussion,
