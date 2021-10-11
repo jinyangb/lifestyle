@@ -113,6 +113,15 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date()
         }
+        {
+          img: 'https://imgur.com/6WmNu2K',
+          type: 'Cardio',
+          title: 'Mountain Climbers',
+          description:
+            'Start in high plank position, with shoulders over wrists and core tight and activated. You can be on your toes with straight legs or on your knees. Draw right knee into chest, then return to high plank with both feet on the floor. Repeat with left leg. Continue alternating legs as quickly as you can. The faster you go, the more intense the exercise.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        }
       ],
       {}
     )
