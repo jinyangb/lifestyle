@@ -24,11 +24,20 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/a/7VSqfvN',
+          img: 'https://imgur.com/gMPsg3P',
           type: 'Vegan',
           title: 'Tofu and Spinach Scramble',
           description:
             'Ingredients: One 14-ounce package firm tofu, drained and cut into 1/2-inch cubes, 1/2 teaspoon ground turmeric, Kosher salt and freshly ground black pepper, 1/8 teaspoon ground cayenne pepper, optional, 2 tablespoons extra-virgin olive oil, 3 scallions, thinly sliced, green and white parts separated, 5 ounces fresh spinach, chopped (about 5 packed cups), 1 to 2 teaspoons fresh lemon juice, 1 cup grape tomatoes, halved, 1/2 cup fresh basil, roughly chopped. Directions: 1) Combine the tofu, turmeric, 1/4 teaspoon salt, 1/2 teaspoon black pepper and cayenne, if using, in a medium bowl. Toss well to combine and set aside. 2) Heat the oil in a large nonstick skillet over medium-high heat. Add the scallion whites and cook, stirring, until soft, about 1 minute. Add the tofu mixture and cook, stirring occasionally, until the tofu is lightly browned and resembles scrambled eggs, about 5 minutes. 3) Add the spinach, lemon juice and 1/2 teaspoon salt and stir until the spinach is wilted, about 1 minute. Add the tomatoes and scallion greens and stir until the tomatoes are just heated through and begin to soften, about 1 minute. Remove from the heat, add the basil and stir to combine. Season with salt and pepper.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/gMPsg3P',
+          type: 'Vegan',
+          title: 'Tacos',
+          description:
+            'Ingredients: 1 tsp vegetable oil, half onion sliced, 2 tsp chopped seeded jalapeno chile, 12 ounce package soy chorizo, 16 ounce refriend beans, corn tortilla, diced onions, chopped cilantro. Directions: 1) Heat oil in large nonstick skillet over medium heat. Add sliced onion and jalapeño; sauté until tender, about 10 minutes. Add soy chorizo and cook until beginning to brown in spots, stirring often, about 5 minutes. 2) Meanwhile, cook beans in heavy small saucepan over low heat until heated through, stirring occasionally. 3) Stack 2 warm tortillas for each of 6 tacos. Spread scant 2 tablespoons beans over each stack. Top with soy chorizo mixture, dividing equally. Sprinkle with diced onion and cilantro.',
           createdAt: new Date(),
           updatedAt: new Date()
         }
