@@ -3,7 +3,7 @@ const { Op, literal, fn, col } = require('sequelize')
 
 const GetDietDetails = async (req, res) => {
   try {
-    const diet = await Diets.findByPk(req.params.diet_id)
+    const diet = await Diet.findByPk(req.params.diet_id)
     res.send(diet)
   } catch (error) {
     throw error

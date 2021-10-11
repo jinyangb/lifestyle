@@ -12,13 +12,17 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 
 const AppRouter = require('./routes/AppRouter')
+const DietRouter = require('./routes/DietRouter')
+const DiscussionRouter = require('./routes/DiscussionRouter')
+const WorkoutRouter = require('./routes/WorkoutRouter')
 
 const PORT = process.env.PORT || 3001
 
+app.use('/', DietRouter, DiscussionRouter, WorkoutRouter)
 app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 app.get('/', (req, res) => res.json({ message: 'Server Works' }))
-app.use('/api', AppRouter)
+app.use('/', AppRouter)
 app.listen(PORT, () => console.log(`Server Started On Port: ${PORT}`))
