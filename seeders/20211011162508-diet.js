@@ -94,6 +94,24 @@ module.exports = {
             'Ingredients: Walnut Chorizo: 3 cups cauliflower florets, 2 cups Southern Grove Walnuts, whole, 2 individual Pueblo Lindo Chipotles in adobo sauce, 1 tablespoon Stonemill Chili Powder, 1 teaspoon Stonemill Ground Cumin, 1 teaspoon salt. Pineapple Salsa: 1 pineapple, cored and diced, 2 jalapeños, ribs and seeds removed, minced, 1 bunch of cilantro, chopped, 1/2 red onion, diced, 1 teaspoon salt, juice of 2 limes. Directions: 1) Walnut Chorizo: Preheat oven to 375 degrees. Pulse everything in a food processor until evenly ground, similar to the texture of ground meat. Transfer to a greased or parchment-lined baking sheet. Bake for 30 minutes, stirring halfway to prevent browning. 2) Pineapple Salsa: Mix! 3)Tacos: Layer avocado mash, walnut chorizo, pineapple salsa, and slaw into a soft, warm, charred tortilla. Oh my gosh. Be amazed.',
           createdAt: new Date(),
           updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/Ba9fOoQ',
+          type: 'Meat',
+          title: 'Cayenne Chicken Skewers',
+          description:
+            'Ingredients: 1 tsp cayenne pepper, 2 tsp smoked paprika (pimenton), 1 tsp ground cumin, 2 garlic cloves, crushed, 2 tbs olive oil, 1kg chicken thighs, cut into 3cm pieces, 2 limes, halved, 1 cup (280g) thick Greek-style yoghurt, 2 tbs Sriracha. Directions: 1) Combine cayenne, paprika, cumin, garlic and oil in a bowl. Add chicken and turn to coat. Thread chicken onto 8 skewers and chill for at least 1 hour to marinate. 2) Heat a barbecue or chargrill pan over high heat. Cook the skewers, turning, for 4 minutes, then add limes cut-side down. Cook for a further 4 minutes or until limes are charred and chicken is charred and cooked through. Set aside to rest, loosely covered with foil, for 5 minutes.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/Ba9fOoQ',
+          type: 'Meat',
+          title: 'Cayenne Chicken Skewers',
+          description:
+            'Ingredients: 1 tsp cayenne pepper, 2 tsp smoked paprika (pimenton), 1 tsp ground cumin, 2 garlic cloves, crushed, 2 tbs olive oil, 1kg chicken thighs, cut into 3cm pieces, 2 limes, halved, 1 cup (280g) thick Greek-style yoghurt, 2 tbs Sriracha. Directions: 1) Combine cayenne, paprika, cumin, garlic and oil in a bowl. Add chicken and turn to coat. Thread chicken onto 8 skewers and chill for at least 1 hour to marinate. 2) Heat a barbecue or chargrill pan over high heat. Cook the skewers, turning, for 4 minutes, then add limes cut-side down. Cook for a further 4 minutes or until limes are charred and chicken is charred and cooked through. Set aside to rest, loosely covered with foil, for 5 minutes.',
+          createdAt: new Date(),
+          updatedAt: new Date()
         }
       ],
       {}
