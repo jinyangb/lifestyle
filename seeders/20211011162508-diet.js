@@ -58,6 +58,15 @@ module.exports = {
             'Ingredients: 1 tbsp of olive oil, shallot, diced, 2 cloves of garlic, minced, 1 bell pepper, diced, 1 28oz can of plum tomatoes, 1/4 tsp salt, 1/4 tsp cumin, 1/4 tsp paprika, 1 chipotle pepper in adobo sauce, 4 eggs, feta cheese, parsley to garnish, chopped baby spinach to garnish. Directions: 1) Add a tbsp of olive oil to a large sauté pan 2) On low-medium heat, add your diced shallot and let cook for about 2 minutes. Add a pinch of salt to let it sweat. 3) Add your garlic and let it cook for about 1 minute more. Do not let the garlic burn. 4) Add your can of tomatoes and bell pepper and mix all ingredients together. 5) Add salt, cumin, paprika, and chipotle pepper. 6) Turn heat down to low and cover pan. Let simmer for about 30 minutes or until tomatoes cook down. Stir occasionally. 7) Once the tomatoes have cooked down, use a wooden spoon to carve out a little hole for the first egg in the sauce. Crack the egg and carefully fill it in the hole. Repeat with 3 other eggs. 8) Cover with lid and let eggs cook for about 8 minutes or until the whites of the eggs have cooked. 9) Garnish with chopped parsley, spinach, and feta and serve.',
           createdAt: new Date(),
           updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/YI7xnja',
+          type: 'Vegetarian',
+          title: 'Spicy Black Bean Burger',
+          description:
+            'Ingredients: 15 oz. Black Beans, 2 Whole Burger Buns, 1 Red Bell Pepper, 1 Yellow Onion, 1/2 cup Fresh Cilantro, 1/2 cup Italian Breadcrumbs, 1/2 cup Grated Parmesan Cheese, 1 tbsp. Minced Garlic, 1 Large Organic Egg, 2 Provolone Cheese Slices, Burger Seasoning: 1 tsp. Oregano, 1/2 tsp. Black Pepper, 1/2 tsp. Garlic Powder, 1/2 tsp. Paprika, 1/2 tsp. Chili Powder, 1/4 tsp. Adobo All-Purpose Seasoning, 1/4 tsp. Crushed Red Pepper Flakes, Dash Ground Cayenne Red Pepper. Avocado Sauce: 1 Medium Avocado, 1/4 cup Mayo, 1 tsp. Lemon Juice, 1 tbsp. Parsley Flakes, 1/2 tsp. Minced Garlic, 1/2 tsp. Black Pepper, 1/4 tsp. Himalayan Salt. Directions: 1) Drain canned black beans and allow to sit for 10 to 15 minutes. Add black beans to a large bowl and mash using a fork or potato masher. Set to the side. 2) Cut your onion and red bell pepper into large pieces half and add to food processor blending to a fine chop. Drain any excess liquid and add to the same bowl as the beans. 3) Add remaining burger ingredients and seasonings, mix, cover, and refrigerate for 30 minutes. 4) Form bean mixture into patties and cook at medium to high heat for 5 minutes per side adding a cheese slice once flipped. 5) For the avocado sauce, remove the seed and skin from the avocado. Blend with avocado sauce ingredients. 6) Build your burger by adding lettuce, tomatoes, and avocado sauce.',
+          createdAt: new Date(),
+          updatedAt: new Date()
         }
       ],
       {}
