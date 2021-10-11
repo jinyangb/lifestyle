@@ -130,9 +130,9 @@ module.exports = {
             'Stand with feet hip-width apart and make sure your core is engaged. Jump up, then immediately drop to the floor, placing hands on the floor and shooting feet back so you’re in a high plank position. Do a push-up. Quickly jump feet back to hands and, in one movement, stand and jump up.',
           createdAt: new Date(),
           updatedAt: new Date()
-        }
+        },
         {
-          img: 'https://imgur.com/DHlEQg0',
+          img: 'https://imgur.com/6r1c1OQ',
           type: 'Cardio',
           title: 'Running',
           description:
