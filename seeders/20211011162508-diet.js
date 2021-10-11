@@ -114,11 +114,11 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/Tk4l23R',
+          img: 'https://imgur.com/6T841GT',
           type: 'Meat',
-          title: 'Bavette Steak',
+          title: 'Steak with Mustard Sauce and Chilli Pumpkin Mash',
           description:
-            'Ingredients: 1/3 cup (80ml) extra virgin olive oil, 2 garlic cloves, sliced, 4 thyme sprigs, 1.4kg bavette, cut into 2 pieces, 50g unsalted butter, halved. Directions: 1) Preheat oven to 180°C. Place two ovenproof frypans over medium-high heat. Divide oil, garlic and thyme between frypans. Season steak and add to pan. Cook for 2 minutes each side or until browned. Add the butter and transfer pans to oven. Cook for a further 3-4 minutes for medium-rare or until cooked to your liking. Remove from oven, then baste with melted butter. Rest, loosely covered with foil, for 5 minutes. 2) To serve, slice steak against the grain',
+            'Ingredients: 500g potatoes, peeled, chopped, 500g butternut pumpkin, peeled, chopped, 1 long red chilli, seeds removed, finely chopped, 20g unsalted butter, 4 x 150g rump steaks, trimmed, 1 tbs wholegrain mustard, 1 cup (250ml) salt-reduced beef stock, 2 cups baby spinach leaves. Directions: 1) Steam the potato and pumpkin in a steamer set over a pan of simmering water for 12-15 minutes until tender. 2) Drain water from the saucepan and wipe dry. Return pumpkin and potato to the pan and shake gently over low heat for 30 seconds to dry out the mixture a bit. Add the chilli and butter with some sea salt and freshly ground black pepper, then mash until smooth. Keep warm. 3) Meanwhile, season steaks with salt and pepper. Heat a large non-stick frypan over medium-high heat, add steaks and cook for 2-3 minutes each side for medium-rare (or until done to your liking). Remove the steaks from the pan, cover loosely with foil and set aside while you make the sauce. 4) Return the frypan to medium-high heat, add the mustard and stock and simmer for 2-3 minutes until the liquid has reduced by about half. 5) Serve the beef and mash with the mustard sauce and baby spinach.',
           createdAt: new Date(),
           updatedAt: new Date()
         }
