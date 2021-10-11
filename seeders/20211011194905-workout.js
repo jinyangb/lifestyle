@@ -49,6 +49,24 @@ module.exports = {
             'Stand tall holding a dumbbell over your head with both hands, arms straight. Keeping your chest up, lower the weight behind your head, then raise it back to the start.',
           createdAt: new Date(),
           updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/iUi1AQg',
+          type: 'Body Weight Training',
+          title: 'Pull-up',
+          description:
+            'Hold a pull-up bar with an overhand grip, hands shoulder-width apart. Brace your core, then pull yourself up until your lower chest touches the bar. Lower until your arms are straight again.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/w5rNqro',
+          type: 'Body Weight Training',
+          title: 'Bent-over Row',
+          description:
+            'Hold a barbell using an overhand grip, hands just outside your legs, and lean forward from the hips. Bend your knees slightly and brace your core, then pull the bar up, leading with your elbows. Lower it back to the start.',
+          createdAt: new Date(),
+          updatedAt: new Date()
         }
       ],
       {}
