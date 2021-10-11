@@ -112,13 +112,31 @@ module.exports = {
             'Bend forward from the hips holding a light dumbbell in each hand with palms facing. Keeping a slight bend in your elbows, raise the weights out to shoulder height, then lower back to the start.',
           createdAt: new Date(),
           updatedAt: new Date()
-        }
+        },
         {
-          img: 'https://imgur.com/6WmNu2K',
+          img: 'https://imgur.com/QkU8g0O',
           type: 'Cardio',
           title: 'Mountain Climbers',
           description:
             'Start in high plank position, with shoulders over wrists and core tight and activated. You can be on your toes with straight legs or on your knees. Draw right knee into chest, then return to high plank with both feet on the floor. Repeat with left leg. Continue alternating legs as quickly as you can. The faster you go, the more intense the exercise.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/DHlEQg0',
+          type: 'Cardio',
+          title: 'Burpees',
+          description:
+            'Stand with feet hip-width apart and make sure your core is engaged. Jump up, then immediately drop to the floor, placing hands on the floor and shooting feet back so you’re in a high plank position. Do a push-up. Quickly jump feet back to hands and, in one movement, stand and jump up.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        }
+        {
+          img: 'https://imgur.com/DHlEQg0',
+          type: 'Cardio',
+          title: 'Running',
+          description:
+            'Don’t hunch your shoulders. Focus on keeping them down–and away from your ears! Pull your shoulders back, like you are imagining squeezing a pen between your shoulder blades–this also helps maintain endurance. This comes more naturally for some people rather than others. Personally, I have a tendency to run with my hands clamped up in a fist, so I have to be intentional about relaxing them–it can create tension in your shoulders and back. I remember my high school cross country coach always telling me to run like I was holding a potato chip between my thumb and forefinger. While every runner has a natural strike, trying to nurture a mid-foot strike is the best way to land. A heel strike and forefoot strike are common–but focus on landing on the middle of your foot regularly. If you lift your knees too high during your run, your running will be bouncy and your body will absorb more impact with each stride. Run with a slight bend in your knee to limit your the impact of training on hard surfaces. There’s a place for high knee action in running drills, but during your run, keep it low and lift your knees forward, not upwards. Don’t ever lean back or stay completely upright while running. Lean forward slightly, hinged at the hips.',
           createdAt: new Date(),
           updatedAt: new Date()
         }
