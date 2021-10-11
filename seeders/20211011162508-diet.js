@@ -60,11 +60,20 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/YI7xnja',
+          img: 'https://imgur.com/LupCgwO',
           type: 'Vegetarian',
           title: 'Spicy Black Bean Burger',
           description:
             'Ingredients: 15 oz. Black Beans, 2 Whole Burger Buns, 1 Red Bell Pepper, 1 Yellow Onion, 1/2 cup Fresh Cilantro, 1/2 cup Italian Breadcrumbs, 1/2 cup Grated Parmesan Cheese, 1 tbsp. Minced Garlic, 1 Large Organic Egg, 2 Provolone Cheese Slices, Burger Seasoning: 1 tsp. Oregano, 1/2 tsp. Black Pepper, 1/2 tsp. Garlic Powder, 1/2 tsp. Paprika, 1/2 tsp. Chili Powder, 1/4 tsp. Adobo All-Purpose Seasoning, 1/4 tsp. Crushed Red Pepper Flakes, Dash Ground Cayenne Red Pepper. Avocado Sauce: 1 Medium Avocado, 1/4 cup Mayo, 1 tsp. Lemon Juice, 1 tbsp. Parsley Flakes, 1/2 tsp. Minced Garlic, 1/2 tsp. Black Pepper, 1/4 tsp. Himalayan Salt. Directions: 1) Drain canned black beans and allow to sit for 10 to 15 minutes. Add black beans to a large bowl and mash using a fork or potato masher. Set to the side. 2) Cut your onion and red bell pepper into large pieces half and add to food processor blending to a fine chop. Drain any excess liquid and add to the same bowl as the beans. 3) Add remaining burger ingredients and seasonings, mix, cover, and refrigerate for 30 minutes. 4) Form bean mixture into patties and cook at medium to high heat for 5 minutes per side adding a cheese slice once flipped. 5) For the avocado sauce, remove the seed and skin from the avocado. Blend with avocado sauce ingredients. 6) Build your burger by adding lettuce, tomatoes, and avocado sauce.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        }
+        {
+          img: 'https://imgur.com/Jtv1TId',
+          type: 'Vegetarian',
+          title: 'Savory Oats',
+          description:
+            'Ingredients: 2 teaspoons olive oil, 1 tablespoon minced onion, 1 teaspoon minced garlic, 1.5 cups rolled oats, 1 cup vegetable broth, 2 cups water, 1 tablespoon maple syrup. Topping: 1 tablespoon olive oil, 8 oz. white mushrooms, sliced, 1 tablespoon minced onion, 1/8 teaspoon salt, 3 sage leaves, 4 large eggs, 1/4 cup raw pepitas (or any kind of nut), 1/4 cup goat cheese crumbles (or Boursin). Directions: 1) Place olive oil on the bottom of a medium pot. Heat over medium-high/heat. When olive oil is fragrant, add onion and garlic. Saute for 2 minutes. 2) Next, add rolled oats and toast over medium heat for 2 minutes. Finally, add vegetable broth, water, and maple syrup and continue heating over medium heat. Stir every so often and cook or around 10 minutes until thickened. 3) While the oatmeal is thickening, prepare the mushroom topping. Heat olive oil in a medium saucepan over medium/high heat. Add mushrooms, onion, salt, and 3 sage leaves. Saute for around 8-10 minutes to cook down the mushrooms. 4) Discard the sage and remove the mushroom topping and set aside. 5) In the same pan, add a little more olive oil (if needed) and fry 4 large eggs to the desired yolk consistency. 6) Finally, serve savory oatmeal topped with the sauteed mushrooms, fried egg, pepitas, and goat cheese.',
           createdAt: new Date(),
           updatedAt: new Date()
         }
