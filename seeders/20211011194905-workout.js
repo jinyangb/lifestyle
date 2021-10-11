@@ -61,10 +61,19 @@ module.exports = {
         },
         {
           img: 'https://imgur.com/w5rNqro',
-          type: 'Body Weight Training',
+          type: 'Weight Training',
           title: 'Bent-over Row',
           description:
             'Hold a barbell using an overhand grip, hands just outside your legs, and lean forward from the hips. Bend your knees slightly and brace your core, then pull the bar up, leading with your elbows. Lower it back to the start.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/w5rNqro',
+          type: 'Weight Training',
+          title: 'Biceps Curl',
+          description:
+            'Stand with dumbbells by your sides, palms facing forwards. Keeping your elbows tucked in, curl the weights up, squeezing your biceps at the top. Lower them back to the start.',
           createdAt: new Date(),
           updatedAt: new Date()
         }
