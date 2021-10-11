@@ -122,6 +122,15 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date()
         }
+        {
+          img: 'https://imgur.com/vUTi76b',
+          type: 'Meat',
+          title: 'Chopped Chilli Chicken Stir Fry',
+          description:
+            'Ingredients: 1/4 cup (60ml) peanut or sunflower oil, 250g purple eggplants, chopped if large, 100g pea eggplants (from Asian grocers), blanched, 1 bunch spring onion, sliced, 1/4 cup (75g) gluten-free chilli paste or chilli sauce, 2 long red chillies, thinly sliced, 1 bunch Thai basil, leaves picked, 500g chicken mince, Steamed rice, to serve, Fried eggs, to serve. Directions: 1) Heat 2 tbs oil in a wok or large frypan over medium-high heat. Add eggplants, season and cook, stirring, for 3-4 minutes until golden. Remove from pan and set aside. Return pan to medium-high heat with remaining 1 tbs oil. Cook onion, chilli paste and half the chilli and basil, stirring, for 2-3 minutes until softened. Add chicken and cook, breaking up with a spoon, for 10 minutes or until browned. Return the eggplant to pan and toss to warm through. 2) Divide rice, chicken and eggs among plates. Top with remaining basil and chilli.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        }
       ],
       {}
     )
