@@ -67,13 +67,31 @@ module.exports = {
             'Ingredients: 15 oz. Black Beans, 2 Whole Burger Buns, 1 Red Bell Pepper, 1 Yellow Onion, 1/2 cup Fresh Cilantro, 1/2 cup Italian Breadcrumbs, 1/2 cup Grated Parmesan Cheese, 1 tbsp. Minced Garlic, 1 Large Organic Egg, 2 Provolone Cheese Slices, Burger Seasoning: 1 tsp. Oregano, 1/2 tsp. Black Pepper, 1/2 tsp. Garlic Powder, 1/2 tsp. Paprika, 1/2 tsp. Chili Powder, 1/4 tsp. Adobo All-Purpose Seasoning, 1/4 tsp. Crushed Red Pepper Flakes, Dash Ground Cayenne Red Pepper. Avocado Sauce: 1 Medium Avocado, 1/4 cup Mayo, 1 tsp. Lemon Juice, 1 tbsp. Parsley Flakes, 1/2 tsp. Minced Garlic, 1/2 tsp. Black Pepper, 1/4 tsp. Himalayan Salt. Directions: 1) Drain canned black beans and allow to sit for 10 to 15 minutes. Add black beans to a large bowl and mash using a fork or potato masher. Set to the side. 2) Cut your onion and red bell pepper into large pieces half and add to food processor blending to a fine chop. Drain any excess liquid and add to the same bowl as the beans. 3) Add remaining burger ingredients and seasonings, mix, cover, and refrigerate for 30 minutes. 4) Form bean mixture into patties and cook at medium to high heat for 5 minutes per side adding a cheese slice once flipped. 5) For the avocado sauce, remove the seed and skin from the avocado. Blend with avocado sauce ingredients. 6) Build your burger by adding lettuce, tomatoes, and avocado sauce.',
           createdAt: new Date(),
           updatedAt: new Date()
-        }
+        },
         {
           img: 'https://imgur.com/Jtv1TId',
           type: 'Vegetarian',
           title: 'Savory Oats',
           description:
             'Ingredients: 2 teaspoons olive oil, 1 tablespoon minced onion, 1 teaspoon minced garlic, 1.5 cups rolled oats, 1 cup vegetable broth, 2 cups water, 1 tablespoon maple syrup. Topping: 1 tablespoon olive oil, 8 oz. white mushrooms, sliced, 1 tablespoon minced onion, 1/8 teaspoon salt, 3 sage leaves, 4 large eggs, 1/4 cup raw pepitas (or any kind of nut), 1/4 cup goat cheese crumbles (or Boursin). Directions: 1) Place olive oil on the bottom of a medium pot. Heat over medium-high/heat. When olive oil is fragrant, add onion and garlic. Saute for 2 minutes. 2) Next, add rolled oats and toast over medium heat for 2 minutes. Finally, add vegetable broth, water, and maple syrup and continue heating over medium heat. Stir every so often and cook or around 10 minutes until thickened. 3) While the oatmeal is thickening, prepare the mushroom topping. Heat olive oil in a medium saucepan over medium/high heat. Add mushrooms, onion, salt, and 3 sage leaves. Saute for around 8-10 minutes to cook down the mushrooms. 4) Discard the sage and remove the mushroom topping and set aside. 5) In the same pan, add a little more olive oil (if needed) and fry 4 large eggs to the desired yolk consistency. 6) Finally, serve savory oatmeal topped with the sauteed mushrooms, fried egg, pepitas, and goat cheese.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/LsUAbiI',
+          type: 'Vegetarian',
+          title: 'Haloumi Burrity Bowl with Roasted Potatoes',
+          description:
+            'Ingredients: Potatoes: 1/4 pound yukon gold potatoes, 2 teaspoons olive oil, 1/2 teaspoon smoked paprika, 1/4 teaspoon ground cumin, 1/4 teaspoon salt. Guacamole: 1 ripe avocado, 3 tablespoons minced cilantro, plus extra for topping, 1 tablespoon lime juice, 1/4 teaspoon salt. Bowls: 1 tablespoon olive oil, 2 ounces halloumi cheese, 1 1/2 cups cooked brown rice, 3 tablespoons toasted pepitas, Hot Sauce, for topping. Directions: 1) Heat oven to 425˚F. Cut the potato into ¼” cubes or slightly larger wedges. Toss with the olive oil, cumin, smoked paprika, and salt. Roast until the potatoes are lightly browning, 20 to 25 minutes. 2) While the potatoes are roasting, Remove pit from avocado and scoop out the avocado. Place in a bowl and mash with cilantro, lime juice, and salt. 3) Heat a medium pan over medium-low heat. Add the olive oil followed by the halloumi. Fry halloumi until golden on each side. 4) Divide the rice into two bowls and top with roasted potatoes, guacamole, pepitas, fried halloumi, and a drizzle of hot sauce if desired. Top with cilantro and pepitas before serving.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/idTLKPi',
+          type: 'Vegetarian',
+          title: 'Walnut Chorizo Tacos',
+          description:
+            'Ingredients: Walnut Chorizo: 3 cups cauliflower florets, 2 cups Southern Grove Walnuts, whole, 2 individual Pueblo Lindo Chipotles in adobo sauce, 1 tablespoon Stonemill Chili Powder, 1 teaspoon Stonemill Ground Cumin, 1 teaspoon salt. Pineapple Salsa: 1 pineapple, cored and diced, 2 jalapeños, ribs and seeds removed, minced, 1 bunch of cilantro, chopped, 1/2 red onion, diced, 1 teaspoon salt, juice of 2 limes. Directions: 1) Walnut Chorizo: Preheat oven to 375 degrees. Pulse everything in a food processor until evenly ground, similar to the texture of ground meat. Transfer to a greased or parchment-lined baking sheet. Bake for 30 minutes, stirring halfway to prevent browning. 2) Pineapple Salsa: Mix! 3)Tacos: Layer avocado mash, walnut chorizo, pineapple salsa, and slaw into a soft, warm, charred tortilla. Oh my gosh. Be amazed.',
           createdAt: new Date(),
           updatedAt: new Date()
         }
