@@ -33,11 +33,20 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/gMPsg3P',
+          img: 'https://imgur.com/F1YUm0t',
           type: 'Vegan',
           title: 'Tacos',
           description:
             'Ingredients: 1 tsp vegetable oil, half onion sliced, 2 tsp chopped seeded jalapeno chile, 12 ounce package soy chorizo, 16 ounce refriend beans, corn tortilla, diced onions, chopped cilantro. Directions: 1) Heat oil in large nonstick skillet over medium heat. Add sliced onion and jalapeño; sauté until tender, about 10 minutes. Add soy chorizo and cook until beginning to brown in spots, stirring often, about 5 minutes. 2) Meanwhile, cook beans in heavy small saucepan over low heat until heated through, stirring occasionally. 3) Stack 2 warm tortillas for each of 6 tacos. Spread scant 2 tablespoons beans over each stack. Top with soy chorizo mixture, dividing equally. Sprinkle with diced onion and cilantro.',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/a/rOZ1663',
+          type: 'Vegan',
+          title: 'Italian-Style Spaghetti Squash with Tempeh',
+          description:
+            'Ingredients: 12 ounces tempeh, cut into small cubes, 2 tablespoons reduced-sodium tamari, 1/4 cup mirin, 2 cloves garlic, finely chopped, 1 (2.5-pound) spaghetti squash, halved lengthwise and seeded, 1 tablespoon canola oil, 1 (25.0-ounce) jar pasta sauce, 2 cups small broccoli florets, 1 cup packed baby spinach. Directions: 1) Preheat the oven to 375°F. 2) In a medium bowl, gently toss together tempeh, tamari, mirin and garlic; set aside to let marinate for 30 minutes. 3) Meanwhile, arrange squash halves, cut sides down, in a large baking dish. 4) Pour 1/2 cup water into dish and bake until just tender, 30 to 45 minutes. 5) Remove from oven, turn over squash and set aside to let cool slightly. 6) Heat oil in a large skillet over medium high heat. 7) Drain tempeh, then add it to the skillet and cook, stirring occasionally, until golden brown, 7 to 8 minutes; transfer to a plate and keep warm. 8) Meanwhile, heat pasta sauce in a medium saucepan over medium heat until hot throughout then add broccoli and cook until just tender, about 5 minutes. 9) Stir in spinach and remove pot from the heat. 10) Using a fork, scrape strands of spaghetti squash onto a serving platter. Spoon hot pasta sauce and broccoli over squash, top with tempeh and serve.',
           createdAt: new Date(),
           updatedAt: new Date()
         }
