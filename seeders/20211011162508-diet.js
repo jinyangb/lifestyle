@@ -105,11 +105,20 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/Ba9fOoQ',
+          img: 'https://imgur.com/Tk4l23R',
           type: 'Meat',
-          title: 'Cayenne Chicken Skewers',
+          title: 'Bavette Steak',
           description:
-            'Ingredients: 1 tsp cayenne pepper, 2 tsp smoked paprika (pimenton), 1 tsp ground cumin, 2 garlic cloves, crushed, 2 tbs olive oil, 1kg chicken thighs, cut into 3cm pieces, 2 limes, halved, 1 cup (280g) thick Greek-style yoghurt, 2 tbs Sriracha. Directions: 1) Combine cayenne, paprika, cumin, garlic and oil in a bowl. Add chicken and turn to coat. Thread chicken onto 8 skewers and chill for at least 1 hour to marinate. 2) Heat a barbecue or chargrill pan over high heat. Cook the skewers, turning, for 4 minutes, then add limes cut-side down. Cook for a further 4 minutes or until limes are charred and chicken is charred and cooked through. Set aside to rest, loosely covered with foil, for 5 minutes.',
+            'Ingredients: 1/3 cup (80ml) extra virgin olive oil, 2 garlic cloves, sliced, 4 thyme sprigs, 1.4kg bavette, cut into 2 pieces, 50g unsalted butter, halved. Directions: 1) Preheat oven to 180°C. Place two ovenproof frypans over medium-high heat. Divide oil, garlic and thyme between frypans. Season steak and add to pan. Cook for 2 minutes each side or until browned. Add the butter and transfer pans to oven. Cook for a further 3-4 minutes for medium-rare or until cooked to your liking. Remove from oven, then baste with melted butter. Rest, loosely covered with foil, for 5 minutes. 2) To serve, slice steak against the grain',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          img: 'https://imgur.com/Tk4l23R',
+          type: 'Meat',
+          title: 'Bavette Steak',
+          description:
+            'Ingredients: 1/3 cup (80ml) extra virgin olive oil, 2 garlic cloves, sliced, 4 thyme sprigs, 1.4kg bavette, cut into 2 pieces, 50g unsalted butter, halved. Directions: 1) Preheat oven to 180°C. Place two ovenproof frypans over medium-high heat. Divide oil, garlic and thyme between frypans. Season steak and add to pan. Cook for 2 minutes each side or until browned. Add the butter and transfer pans to oven. Cook for a further 3-4 minutes for medium-rare or until cooked to your liking. Remove from oven, then baste with melted butter. Rest, loosely covered with foil, for 5 minutes. 2) To serve, slice steak against the grain',
           createdAt: new Date(),
           updatedAt: new Date()
         }
