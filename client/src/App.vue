@@ -30,4 +30,14 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+#nav a {
+  font-weight: bold;
+  color:gray;
+  padding: 20px;
+}
+
+#nav a.router-link-exact-active {
+  color: rgb(32, 138, 173);
+}
 </style>
