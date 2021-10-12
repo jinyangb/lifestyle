@@ -1,15 +1,15 @@
-const { Workouts } = require('../models')
-const { Op, literal, fn, col } = require('sequelize')
+const { Workout } = require('../models')
+// const { Op, literal, fn, col } = require('sequelize')
 
-const GetWorkoutDetails = async (req, res) => {
+const GetWorkouts = async (req, res) => {
   try {
-    const workout = await Workouts.findByPk(req.params.workout_id)
-    res.send(workout)
+    const recents = await Workout.findAll()
+    res.send(recents)
   } catch (error) {
     throw error
   }
 }
 
 module.exports = {
-  GetWorkoutDetails
+  GetWorkouts
 }

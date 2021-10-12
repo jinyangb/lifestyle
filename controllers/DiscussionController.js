@@ -1,10 +1,10 @@
-const { Discussions } = require('../models')
+const { Discussion } = require('../models')
 const { Op, literal, fn, col } = require('sequelize')
 
-const GetRecentDiscussions = async (req, res) => {
+const GetDiscussions = async (req, res) => {
   try {
-    const recents = await Discussions.findAll({
-      order: [['created_at', 'DESC']]
+    const recents = await Discussion.findAll({
+      order: [['createdAt', 'DESC']]
     })
     res.send(recents)
   } catch (error) {
@@ -12,24 +12,10 @@ const GetRecentDiscussions = async (req, res) => {
   }
 }
 
-const GetDiscussionDetails = async (req, res) => {
-  try {
-    const discussion = await Discussions.findByPk(req.params.discussion_id)
-    res.send(discussion)
-  } catch (error) {
-    throw error
-  }
-}
-
 const CreateDiscussion = async (req, res) => {
   try {
-    let ownerId = parseInt(req.params.discussion_id)
-    let discussionBody = {
-      ownerId,
-      ...req.body
-    }
-    let discussion = await Discussions.create(discussionBody)
-    res.send(discussion)
+    const disc = await Discussion.create(req.body)
+    res.send(disc)
   } catch (error) {
     throw error
   }
@@ -38,7 +24,7 @@ const CreateDiscussion = async (req, res) => {
 const UpdateDiscussion = async (req, res) => {
   try {
     let discussionId = parseInt(req.params.discussion_id)
-    let updatedDiscussion = await Discussions.update(req.body, {
+    let updatedDiscussion = await Discussion.update(req.body, {
       where: { id: discussionId },
       returning: true
     })
@@ -51,7 +37,7 @@ const UpdateDiscussion = async (req, res) => {
 const DeleteDiscussion = async (req, res) => {
   try {
     let discussionId = parseInt(req.params.discussion_id)
-    await Discussions.destroy({ where: { id: discussionId } })
+    await Discussion.destroy({ where: { id: discussionId } })
     res.send({ message: `Deleted discussion with an id of ${discussionId}` })
   } catch (error) {
     throw error
@@ -59,8 +45,7 @@ const DeleteDiscussion = async (req, res) => {
 }
 
 module.exports = {
-  GetRecentDiscussions,
-  GetDiscussionDetails,
+  GetDiscussions,
   CreateDiscussion,
   UpdateDiscussion,
   DeleteDiscussion

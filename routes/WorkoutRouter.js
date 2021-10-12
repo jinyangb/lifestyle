@@ -1,7 +1,7 @@
 const Router = require('express').Router()
 const controller = require('../controllers/WorkoutController')
 
-Router.get('/workouts', controller.GetWorkoutDetails)
+Router.get('/', controller.GetWorkouts)
 // Router.get('/:workout_id', controller.GetWorkouts)
 // Router.post('/', controller.CreateUser)
 // Router.put('/:post_id', controller.UpdateUser)
