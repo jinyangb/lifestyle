@@ -10,8 +10,8 @@ export const CreatePost = async data => {
   return res.data
 }
 
-export const RemoveUser = async postId => {
-  const res = await Client.delete(`/discussions/${postId}`)
+export const RemovePost = async discussionId => {
+  const res = await Client.delete(`/discussions/${discussionId}`)
   return res.data
 }
 //

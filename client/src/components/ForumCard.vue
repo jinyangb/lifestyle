@@ -2,11 +2,14 @@
   <section class="post">
     <div class="content">
     <div>
-      <h4>{{ forum.name }}</h4>
-      <p>{{ forum.content }}</p>
+      <h4>{{ post.name }}</h4>
+      <p>{{ post.content }}</p>
     </div>
-        <button class="delete-button" @click="deletePost(post.id)">X</button>
+    <div class="delete-button-container">
+      <button class="delete-button" @click="deletePost(post.id)">X</button>
     </div>
+    </div>
+    
   </section>
 </template>
 
@@ -15,14 +18,14 @@
 export default {
   
   name: 'ForumCard',
-  props: [
-    "forum"
-  ],
+  props: {
+    post: {}
+},
 mounted: function(){
   // this.getForums()
 },
   methods: {
-        deletePost(postId) {
+    deletePost(postId) {
       this.$emit('deletePost', postId)
     }
 } 

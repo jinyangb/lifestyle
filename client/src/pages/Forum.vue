@@ -6,8 +6,11 @@
         <button :disabled="!input.name" >Submit</button>
       </form>
     <p3>Forum</p3>
-    <div v-for="post in forums" :key="post.id" >
-    <ForumCard :post="post" />
+    <div v-if="this.posts"  >
+    <ForumCard :post="post" v-for="post in posts" :key="post.id" @deletePost="deletePost"/>
+    </div>
+        <div v-else class="post-container">
+      <h3>No content to display :(</h3>
     </div>
   </div>
 </template>
@@ -26,7 +29,7 @@ export default {
       name: '',
       content: ''
     },
-    forums:[]
+    posts:[]
     }),
 mounted: function(){
     this.getPosts()
@@ -61,10 +64,10 @@ mounted: function(){
         console.log(error)
       }
     },
-    async deletePosts(discussion_id){
+    async deletePost(post_id){
       try {
       const res = await axios.delete(
-          `${BASE_URL}/discussions/${discussion_id}`
+          `${BASE_URL}/discussions/${post_id}`
         )
       const index = this.posts.indexOf(res.data["payload"])
       this.posts.splice(index,1)
@@ -76,3 +79,74 @@ mounted: function(){
   
 }
 </script>
+
+<style scoped>
+.container {
+  background-color: #1282eb; 
+  background: -webkit-linear-gradient(to right, #1282eb, #64b3f4); 
+  background: linear-gradient(to right, #1282eb, #64b3f4);
+  border-top-left-radius : 30px;
+  border-bottom-right-radius : 30px;
+  width: 300px;
+  justify-content:center;
+  margin: 40px;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+.current-weather > h4 {
+  font-size: 1.5em;
+}
+.current-weather > p {
+  font-size: 1.4em;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+input,
+button,
+textarea {
+  padding: 0.5em 1.2em;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+  margin: .2em;
+}
+
+input,
+textarea {
+  border: 2px solid #757575;
+  outline: none;
+  width: 500px;
+}
+
+button {
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+button:not(:disabled) {
+  background-color: #274e6e;
+}
+
+.post-container {
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: center;
+}
+</style>
