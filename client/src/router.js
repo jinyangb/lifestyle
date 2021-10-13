@@ -4,6 +4,7 @@ import Home from './pages/Home.vue'
 import About from './pages/About.vue'
 import Recipe from './pages/Recipe.vue'
 import Workout from './pages/Workout.vue'
+import Forum from './pages/Forum.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,7 @@ const routes = [
   },
   { path: '/workouts', name: 'Workouts', component: Workout },
   { path: '/recipes', name: 'Recipes', component: Recipe },
+  { path: '/forum', name: 'Forum', component: Forum },
   { path: '/about', name: 'About', component: About }
 ]
 
