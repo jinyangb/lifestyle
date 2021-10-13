@@ -20,8 +20,8 @@ export default {
     "workout"
   ],
 mounted: function(){
-  this.getWorkout()
-},
+  // this.getWorkout()
+  },
   methods: {
 } 
 }

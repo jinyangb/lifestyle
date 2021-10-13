@@ -27,7 +27,7 @@ export default {
         async getWorkout(){
       try {
         const res = await axios.get(
-          `${BASE_URL}/api/workouts`
+          `${BASE_URL}/workouts`
         )
         this.workouts = res.data
       } catch (error) {

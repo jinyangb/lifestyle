@@ -27,7 +27,7 @@ export default {
         async getRecipe(){
       try {
         const res = await axios.get(
-          `${BASE_URL}/api/diets`
+          `${BASE_URL}/diets`
         )
         this.recipes = res.data
       } catch (error) {

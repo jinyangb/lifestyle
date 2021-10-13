@@ -20,7 +20,7 @@ export default {
     "recipe"
   ],
 mounted: function(){
-  this.getRecipe()
+  // this.getRecipe()
 },
   methods: {
 } 
