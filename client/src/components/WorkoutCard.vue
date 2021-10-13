@@ -1,75 +1,80 @@
 <template>
-  <div class="feed">
-    <div class="scroll-feed" >
-      <FeedCard v-for="photo in photos" :key="photo.id" :photo="photo">
-      </div>
-    <div class="item-view" v-if="selectedPhoto">
-      <DetailView :photo="selectedPhoto"/>
+  <section class="post">
+    <div class="content">
+    <div>
+      <h4>{{ workout.img }}</h4>
+      <h4>{{ workout.type }}</h4>
+      <h4>{{ workout.title }}</h4>
+      <p>{{ workout.description }}</p>
     </div>
-    <div class="item-view" v-else>
-      <div>
-        <img src="../assets/empty.svg" />
-      </div>
-      <h3>No Photo Selected</h3>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
-import axios from 'axios'
-import {BASE_URL} from '../globals'
-import FeedCard from './FeedCard.vue'
-import DetailView from './DetailView.vue'
-const API_KEY = process.env.VUE_APP_UNSPLASH_KEY
+
 export default {
-  name: 'Feed',
-  components: {
-  FeedCard,
-  DetailView
-  },
-data: () => ({
-  photos: [],
-  selectedPhoto: null
-}),
+  
+  name: 'WorkoutCard',
+  props: [
+    "workout"
+  ],
 mounted: function(){
-  this.getPhotos()
+  this.getWorkout()
 },
-methods:{
-  async getPhotos(){
-    const res = await axios.get(
-      `${BASE_URL}/photos?client_id=${API_KEY}`
-    )
-  // console.log(res.data)
-  this.photos = res.data
-},
-  async selectPhoto(photoId){
-    const res = await axios.get(
-      `${BASE_URL}/photos/${photoId}?client_id=${API_KEY}`
-    )
-    this.selectedPhoto = res.data
-  }
-  }
+  methods: {
+} 
 }
 </script>
 
-<style>
-.feed {
-  display: flex;
-}
+<style scoped>
+  .post {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 15px;
+    justify-content:space-evenly;
+    padding: 20px;
+    margin: 25px;
+    width:500px;
+    cursor: pointer;
+    background-color: #c2e59c; 
+    background: -webkit-linear-gradient(to right, #c2e59c, #64b3f4); 
+    background: linear-gradient(to right, #c2e59c, #64b3f4); 
+    border-top-left-radius : 30px;
+    border-bottom-right-radius : 30px;
+    transition: all 0.2s;    
+    overflow-x: auto;
+    overflow-y: auto;
+    font-weight: bold;
+    color: black;
+    /* background-image: url("https://i.imgur.com/PtlNNn0t.jpg"); */
+  }
+  .post:hover{
+    opacity: 0.8;
+  }
+  .content {
+    display: flex;
+    justify-content:space-evenly;
+    width:500px;
+  }
+  .date {
+    display: flex; 
+    justify-content:space-evenly;
+    align-items: flex-start;
+    height: 20px;
+    padding: 5px;
+  }
+  .delete-button-container {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  .delete-button {
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    color: #64b3f4;
+  }
 
-.scroll-feed {
-  flex: 1;
-  overflow-y: scroll;
-  height: 100vh;
-}
-
-.item-view {
-  padding: 1em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 1150px;
-}
 </style>
