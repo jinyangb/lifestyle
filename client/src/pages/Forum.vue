@@ -19,7 +19,7 @@
 import axios from 'axios'
 import ForumCard from '../components/ForumCard.vue'
 import {BASE_URL} from '../globals'
-// import UpdatePost from '../services/post'
+
 export default {
   name: 'Forum',
     components:{
@@ -55,7 +55,6 @@ mounted: function(){
       this.input[event.target.name] = event.target.value
       this.input[event.target.content] = event.target.value
     },
-
     async getPosts(){
       try {
         const res = await axios.get(
@@ -77,20 +76,11 @@ mounted: function(){
         console.log(error)
       }
     },
-
-  },
-  
+  }, 
 }
 </script>
 
 <style scoped>
-
-/* .home{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
 
 h3 {
   font-size: 1.5em;

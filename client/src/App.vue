@@ -4,8 +4,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/workouts">Workouts</router-link> |
       <router-link to="/recipes">Recipes</router-link> |
-      <router-link to="/forum">Forum</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/forum">Forum</router-link> 
+      <!-- <router-link to="/about">About</router-link> -->
     </div>
     <router-view/>
   </div>
@@ -17,7 +17,6 @@
 export default {
   name: 'App',
   components: {
-
   }
 }
 </script>
@@ -29,13 +28,17 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  padding-top: 40px;
+  /* margin-top: 90px; */
+  background-color: black;
 }
 
 #nav a {
   font-weight: bold;
   color:gray;
   padding: 20px;
+  margin: 20px
+  ;
 }
 
 #nav a.router-link-exact-active {

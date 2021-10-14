@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h2>Recipes</h2>
     <div v-for="recipe in recipes" :key="recipe.id" >
     <RecipeCard :recipe="recipe" />
 

@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <h2>Workouts</h2>
+  <div class="bg">
     <div v-for="workout in workouts" :key="workout.id" >
     <WorkoutCard :workout="workout" />
-
     </div>
   </div>
 </template>
@@ -37,3 +35,10 @@ export default {
 }
 }
 </script>
+<style>
+
+.bg{
+    background-color: black;
+}
+
+</style>

@@ -63,7 +63,7 @@ module.exports = {
         },
         {
           type: 'Vegetarian',
-          title: 'Haloumi Burrity Bowl with Roasted Potatoes',
+          title: 'Haloumi Burrito Bowl with Roasted Potatoes',
           description:
             'Ingredients: Potatoes: 1/4 pound yukon gold potatoes, 2 teaspoons olive oil, 1/2 teaspoon smoked paprika, 1/4 teaspoon ground cumin, 1/4 teaspoon salt. Guacamole: 1 ripe avocado, 3 tablespoons minced cilantro, plus extra for topping, 1 tablespoon lime juice, 1/4 teaspoon salt. Bowls: 1 tablespoon olive oil, 2 ounces halloumi cheese, 1 1/2 cups cooked brown rice, 3 tablespoons toasted pepitas, Hot Sauce, for topping. Directions: 1) Heat oven to 425˚F. Cut the potato into ¼” cubes or slightly larger wedges. Toss with the olive oil, cumin, smoked paprika, and salt. Roast until the potatoes are lightly browning, 20 to 25 minutes. 2) While the potatoes are roasting, Remove pit from avocado and scoop out the avocado. Place in a bowl and mash with cilantro, lime juice, and salt. 3) Heat a medium pan over medium-low heat. Add the olive oil followed by the halloumi. Fry halloumi until golden on each side. 4) Divide the rice into two bowls and top with roasted potatoes, guacamole, pepitas, fried halloumi, and a drizzle of hot sauce if desired. Top with cilantro and pepitas before serving.',
           createdAt: new Date(),
