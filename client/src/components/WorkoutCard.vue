@@ -38,18 +38,9 @@ mounted: function(){
     padding: 20px;
     margin: 25px;
     width:500px;
-    /* cursor: pointer; */
-    /* background-color: #c2e59c; 
-    background: -webkit-linear-gradient(to right, #c2e59c, #64b3f4); 
-    background: linear-gradient(to right, #c2e59c, #64b3f4);  */
-    /* border-top-left-radius : 30px;
-    border-bottom-right-radius : 30px; */
-    /* transition: all 0.2s;     */
     overflow-x: auto;
     overflow-y: auto;
-    /* font-weight:bolder; */
     color: black;
-    /* background-image: url("https://i.imgur.com/PtlNNn0t.jpg"); */
   }
 
   .content {

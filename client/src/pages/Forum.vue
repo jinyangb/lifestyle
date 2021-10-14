@@ -37,6 +37,7 @@ mounted: function(){
   },
   methods: {
     async submitPost() {
+      this.$router.go()
       const data = {
         "name": this.input.name,
         "content": this.input.content,
@@ -83,23 +84,13 @@ mounted: function(){
 </script>
 
 <style scoped>
-/* .container {
-  background-color: #1282eb; 
-  background: -webkit-linear-gradient(to right, #1282eb, #64b3f4); 
-  background: linear-gradient(to right, #1282eb, #64b3f4);
-  border-top-left-radius : 30px;
-  border-bottom-right-radius : 30px;
-  width: 300px;
-  justify-content:center;
-  margin: 40px;
-} */
 
-.home{
+/* .home{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 h3 {
   font-size: 1.5em;
@@ -110,16 +101,12 @@ h3 {
 .current-weather > p {
   font-size: 1.4em;
 }
-
-
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
-
 input,
 button,
 textarea {
@@ -129,20 +116,18 @@ textarea {
   transition: all 0.2s ease;
   margin: .2em;
 }
-
 input,
 textarea {
   border: 2px solid #757575;
   outline: none;
   width: 500px;
 }
-
 button {
   margin-left: 1em;
   cursor: pointer;
 }
-
 button:not(:disabled) {
+    cursor: pointer;
   background-color: #274e6e;
 }
 

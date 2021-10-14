@@ -14,8 +14,6 @@
     </div>
     <div class="delete-button-container">
     </div>
-    <div>
-    </div>
     </div>
     
   </section>
@@ -45,6 +43,7 @@ mounted: function(){
       this.$emit('deletePost', id)
     },
     showForm() {
+
       this.displayForm = true
     },
     handleNameUpdate(event){
@@ -65,4 +64,30 @@ mounted: function(){
 } 
 }
 </script>
+
+<style scoped>
+  .post {
+    align-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 4px solid black;
+    border-radius: 20px;
+    justify-content:space-evenly;
+    padding: 20px;
+    margin: 25px;
+    width:500px;
+    overflow-x: auto;
+    overflow-y: auto;
+    color: black;
+  }
+
+  .content {
+    display: flex;
+    justify-content:center;
+    width: 500px;
+  }
+
+
+
+</style>
 
