@@ -40,7 +40,7 @@ export default {
   .content {
     display: flex;
     text-align: center;
-    color: cornsilk;
+    color: rgb(255, 255, 255);
     justify-content:center;
     /* width: 500px; */
   }

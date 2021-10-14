@@ -10,7 +10,7 @@
         <button @click="updateContent">Save</button>
       </form>
       <button @click="showForm">Update</button>
-      <button class="delete-button" @click="deletePost(id)">X</button>
+      <button class="delete-button" @click="deletePost(id)">Delete</button>
     </div>
     <div class="delete-button-container">
     </div>
@@ -80,7 +80,7 @@ data: () => ({
   button {
   cursor: pointer;
   margin-left: 1em;
-  background-color: #6095c0;
+  background-color: #ffffff;
   margin: 10px;
 }
 
