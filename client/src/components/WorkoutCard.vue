@@ -2,8 +2,7 @@
   <section class="post">
     <div class="content">
     <div>
-      <h4>{{ workout.img }}</h4>
-      <h4>{{ workout.type }}</h4>
+      <h3>{{ workout.type }}</h3>
       <h4>{{ workout.title }}</h4>
       <p>{{ workout.description }}</p>
     </div>
@@ -42,13 +41,9 @@ mounted: function(){
     overflow-y: auto;
     color: black;
   }
-
   .content {
     display: flex;
     justify-content:center;
     width: 500px;
   }
-
-
-
 </style>

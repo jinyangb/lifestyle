@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>Workout.</h3>
+    <h2>Workouts</h2>
     <div v-for="workout in workouts" :key="workout.id" >
     <WorkoutCard :workout="workout" />
 

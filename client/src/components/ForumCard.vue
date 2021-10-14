@@ -15,7 +15,6 @@
     <div class="delete-button-container">
     </div>
     </div>
-    
   </section>
 </template>
 
@@ -34,9 +33,6 @@ data: () => ({
   nameChange: '',
   contentChange:''
   }),
-mounted: function(){
-
-},
   methods: {
     deletePost(id) {
       this.$router.go()
@@ -81,6 +77,10 @@ mounted: function(){
     color: black;
   }
 
+button {
+  margin-left: 1em;
+  cursor: pointer;
+}
   .content {
     display: flex;
     justify-content:center;
