@@ -37,7 +37,6 @@ data: () => ({
   contentChange:''
   }),
 mounted: function(){
-  // this.getForums()
 },
   methods: {
     deletePost(postId) {

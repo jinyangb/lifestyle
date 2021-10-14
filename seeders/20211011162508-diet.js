@@ -6,7 +6,7 @@ module.exports = {
       'diets',
       [
         {
-          img: 'https://imgur.com/6AR81l6',
+          img: 'https://i.imgur.com/atbFTSn.jpg',
           type: 'Vegan',
           title: 'Maple Tempeh',
           description:
@@ -15,7 +15,7 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/a/7VSqfvN',
+          img: 'https://i.imgur.com/8vGnduL.jpg',
           type: 'Vegan',
           title: 'Lemon Fettuccine Alfredo',
           description:
@@ -24,7 +24,7 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/gMPsg3P',
+          img: 'https://i.imgur.com/6prOwpV.jpg',
           type: 'Vegan',
           title: 'Tofu and Spinach Scramble',
           description:
@@ -33,7 +33,7 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/F1YUm0t',
+          img: 'https://i.imgur.com/l3D4be7.jpg',
           type: 'Vegan',
           title: 'Tacos',
           description:
@@ -42,16 +42,7 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/a/rOZ1663',
-          type: 'Vegan',
-          title: 'Italian-Style Spaghetti Squash with Tempeh',
-          description:
-            'Ingredients: 12 ounces tempeh, cut into small cubes, 2 tablespoons reduced-sodium tamari, 1/4 cup mirin, 2 cloves garlic, finely chopped, 1 (2.5-pound) spaghetti squash, halved lengthwise and seeded, 1 tablespoon canola oil, 1 (25.0-ounce) jar pasta sauce, 2 cups small broccoli florets, 1 cup packed baby spinach. Directions: 1) Preheat the oven to 375°F. 2) In a medium bowl, gently toss together tempeh, tamari, mirin and garlic; set aside to let marinate for 30 minutes. 3) Meanwhile, arrange squash halves, cut sides down, in a large baking dish. 4) Pour 1/2 cup water into dish and bake until just tender, 30 to 45 minutes. 5) Remove from oven, turn over squash and set aside to let cool slightly. 6) Heat oil in a large skillet over medium high heat. 7) Drain tempeh, then add it to the skillet and cook, stirring occasionally, until golden brown, 7 to 8 minutes; transfer to a plate and keep warm. 8) Meanwhile, heat pasta sauce in a medium saucepan over medium heat until hot throughout then add broccoli and cook until just tender, about 5 minutes. 9) Stir in spinach and remove pot from the heat. 10) Using a fork, scrape strands of spaghetti squash onto a serving platter. Spoon hot pasta sauce and broccoli over squash, top with tempeh and serve.',
-          createdAt: new Date(),
-          updatedAt: new Date()
-        },
-        {
-          img: 'https://imgur.com/YI7xnja',
+          img: 'https://i.imgur.com/YI7xnja.jpg',
           type: 'Vegetarian',
           title: 'Shakshuka',
           description:
@@ -60,7 +51,7 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/LupCgwO',
+          img: 'https://i.imgur.com/LupCgwO.jpg',
           type: 'Vegetarian',
           title: 'Spicy Black Bean Burger',
           description:
@@ -69,7 +60,7 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/Jtv1TId',
+          img: 'https://i.imgur.com/Jtv1TId.jpg',
           type: 'Vegetarian',
           title: 'Savory Oats',
           description:
@@ -78,7 +69,7 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/LsUAbiI',
+          img: 'https://i.imgur.com/LsUAbiI.jpg',
           type: 'Vegetarian',
           title: 'Haloumi Burrity Bowl with Roasted Potatoes',
           description:
@@ -87,7 +78,7 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/idTLKPi',
+          img: 'https://i.imgur.com/idTLKPi.jpg',
           type: 'Vegetarian',
           title: 'Walnut Chorizo Tacos',
           description:
@@ -96,7 +87,7 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/Ba9fOoQ',
+          img: 'https://i.imgur.com/Ba9fOoQ.jpg',
           type: 'Meat',
           title: 'Cayenne Chicken Skewers',
           description:
@@ -105,7 +96,7 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/Tk4l23R',
+          img: 'https://i.imgur.com/Tk4l23R.jpg',
           type: 'Meat',
           title: 'Bavette Steak',
           description:
@@ -114,7 +105,7 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/6T841GT',
+          img: 'https://i.imgur.com/6T841GT.jpg',
           type: 'Meat',
           title: 'Steak with Mustard Sauce and Chilli Pumpkin Mash',
           description:
@@ -123,20 +114,11 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://imgur.com/vUTi76b',
+          img: 'https://i.imgur.com/vUTi76b.jpg',
           type: 'Meat',
           title: 'Chopped Chilli Chicken Stir Fry',
           description:
             'Ingredients: 1/4 cup (60ml) peanut or sunflower oil, 250g purple eggplants, chopped if large, 100g pea eggplants (from Asian grocers), blanched, 1 bunch spring onion, sliced, 1/4 cup (75g) gluten-free chilli paste or chilli sauce, 2 long red chillies, thinly sliced, 1 bunch Thai basil, leaves picked, 500g chicken mince, Steamed rice, to serve, Fried eggs, to serve. Directions: 1) Heat 2 tbs oil in a wok or large frypan over medium-high heat. Add eggplants, season and cook, stirring, for 3-4 minutes until golden. Remove from pan and set aside. Return pan to medium-high heat with remaining 1 tbs oil. Cook onion, chilli paste and half the chilli and basil, stirring, for 2-3 minutes until softened. Add chicken and cook, breaking up with a spoon, for 10 minutes or until browned. Return the eggplant to pan and toss to warm through. 2) Divide rice, chicken and eggs among plates. Top with remaining basil and chilli.',
-          createdAt: new Date(),
-          updatedAt: new Date()
-        },
-        {
-          img: 'https://imgur.com/vUTi76b',
-          type: 'Meat',
-          title: 'Rum and Maple Steak with 2 Minute Fries',
-          description:
-            'Ingredients: 3 large golden delight or sebago potatoes, peeled, Sunflower oil, to shallow-fry, 800g beef flank steak, 2 tbs extra virgin olive oil, 1/4 cup (60ml) dark rum, 1/4 cup (60ml) maple syrup, 1 tbs each apple cider vinegar and wholegrain mustard. Directions: 1) To make the fries, grate potato into long strips using the coarse side of a box grater. Place in a clean tea towel and squeeze to extract excess liquid. Heat 2cm sunflower oil in a heavy-based frypan over medium-high heat. Fry potato, in batches, for 2 minutes or until crisp, then drain on paper towel. Keep warm. 2) Drizzle steak with olive oil and season. Heat a heavy-based frypan over high heat, then add steak and cook for 3-4 minutes each side until slightly charred. Combine rum, maple syrup, vinegar and mustard in a bowl, then add to pan and cook steak, basting with sauce, for a further 1 minute each side or until glazed. Remove from pan and rest, loosely covered with foil, for 5 minutes. Cook sauce for a further 1 minute or until reduced and thickened. 3) Thinly slice steak, then drizzle generously with sauce and serve with fries.',
           createdAt: new Date(),
           updatedAt: new Date()
         }
