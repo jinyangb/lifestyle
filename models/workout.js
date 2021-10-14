@@ -13,7 +13,6 @@ module.exports = (sequelize, DataTypes) => {
   }
   Workout.init(
     {
-      img: DataTypes.STRING,
       type: DataTypes.STRING,
       title: DataTypes.STRING,
       description: DataTypes.TEXT

@@ -6,7 +6,6 @@ module.exports = {
       'workouts',
       [
         {
-          img: 'https://i.imgur.com/V3DrJPM.jpg',
           type: 'Weight Training',
           title: 'Bench Press',
           description:
@@ -15,7 +14,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/q64p0Vq.jpg',
           type: 'Body Weight Training',
           title: 'Triceps Dip',
           description:
@@ -24,7 +22,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/AegXzVh.jpg',
           type: 'Weight Training',
           title: 'Incline Dumbbell Press',
           description:
@@ -33,7 +30,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/qNVVI4u.jpg',
           type: 'Weight Training',
           title: 'Incline Dumbbell Flye',
           description:
@@ -42,7 +38,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/wa2pi7U.jpg',
           type: 'Weight Training',
           title: 'Tricep Extension',
           description:
@@ -51,7 +46,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/iUi1AQg.jpg',
           type: 'Body Weight Training',
           title: 'Pull-up',
           description:
@@ -60,7 +54,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/w5rNqro.jpg',
           type: 'Weight Training',
           title: 'Bent-over Row',
           description:
@@ -69,7 +62,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/BJITw0t.jpg',
           type: 'Weight Training',
           title: 'Biceps Curl',
           description:
@@ -78,7 +70,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/B8cnTvo.jpg',
           type: 'Weight Training',
           title: 'Back Squat',
           description:
@@ -87,7 +78,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/DFU0iCr.jpg',
           type: 'Weight Training',
           title: 'Seated Dumbbell Press',
           description:
@@ -96,7 +86,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/Q3mQEur.jpg',
           type: 'Weight Training',
           title: 'Lateral Raise',
           description:
@@ -105,7 +94,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/6WmNu2K.jpg',
           type: 'Weight Training',
           title: 'Reverse Flye',
           description:
@@ -114,7 +102,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/QkU8g0O.png',
           type: 'Cardio',
           title: 'Mountain Climbers',
           description:
@@ -123,7 +110,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/DHlEQg0.jpg',
           type: 'Cardio',
           title: 'Burpees',
           description:
@@ -132,7 +118,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/6r1c1OQ.png',
           type: 'Cardio',
           title: 'Running',
           description:

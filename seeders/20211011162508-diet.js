@@ -6,7 +6,6 @@ module.exports = {
       'diets',
       [
         {
-          img: 'https://i.imgur.com/atbFTSn.jpg',
           type: 'Vegan',
           title: 'Maple Tempeh',
           description:
@@ -15,7 +14,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/8vGnduL.jpg',
           type: 'Vegan',
           title: 'Lemon Fettuccine Alfredo',
           description:
@@ -24,7 +22,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/6prOwpV.jpg',
           type: 'Vegan',
           title: 'Tofu and Spinach Scramble',
           description:
@@ -33,7 +30,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/l3D4be7.jpg',
           type: 'Vegan',
           title: 'Tacos',
           description:
@@ -42,7 +38,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/YI7xnja.jpg',
           type: 'Vegetarian',
           title: 'Shakshuka',
           description:
@@ -51,7 +46,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/LupCgwO.jpg',
           type: 'Vegetarian',
           title: 'Spicy Black Bean Burger',
           description:
@@ -60,7 +54,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/Jtv1TId.jpg',
           type: 'Vegetarian',
           title: 'Savory Oats',
           description:
@@ -69,7 +62,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/LsUAbiI.jpg',
           type: 'Vegetarian',
           title: 'Haloumi Burrity Bowl with Roasted Potatoes',
           description:
@@ -78,7 +70,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/idTLKPi.jpg',
           type: 'Vegetarian',
           title: 'Walnut Chorizo Tacos',
           description:
@@ -87,7 +78,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/Ba9fOoQ.jpg',
           type: 'Meat',
           title: 'Cayenne Chicken Skewers',
           description:
@@ -96,7 +86,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/Tk4l23R.jpg',
           type: 'Meat',
           title: 'Bavette Steak',
           description:
@@ -105,7 +94,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/6T841GT.jpg',
           type: 'Meat',
           title: 'Steak with Mustard Sauce and Chilli Pumpkin Mash',
           description:
@@ -114,7 +102,6 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          img: 'https://i.imgur.com/vUTi76b.jpg',
           type: 'Meat',
           title: 'Chopped Chilli Chicken Stir Fry',
           description:
