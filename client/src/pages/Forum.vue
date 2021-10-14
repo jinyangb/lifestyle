@@ -5,7 +5,6 @@
         <textarea maxlength="255" rows="4" cols="50" class="comment" name="content" type="content" placeholder="Content" :value="input.content" @change="handleChange"/>
         <button :disabled="!input.name" >Submit</button>
       </form>
-    <h3>Forum</h3>
     <div v-if="this.posts"  >
     <ForumCard :name="post.name" :content="post.content" :id="post.id" v-for="post in posts" :key="post.id" @deletePost="deletePost"/>
     </div>
@@ -85,17 +84,12 @@ mounted: function(){
 h3 {
   font-size: 1.5em;
 }
-.current-weather > h4 {
-  font-size: 1.5em;
-}
-.current-weather > p {
-  font-size: 1.4em;
-}
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
 }
 input,
 button,
@@ -104,21 +98,22 @@ textarea {
   border-radius: 6px;
   border: 2px solid transparent;
   transition: all 0.2s ease;
-  margin: .2em;
+  margin: 10px;
 }
 input,
 textarea {
-  border: 2px solid #757575;
+  border: 2px solid #fffdfd;
   outline: none;
   width: 500px;
 }
 button {
   margin-left: 1em;
   cursor: pointer;
+  margin: 20px;
 }
 button:not(:disabled) {
     cursor: pointer;
-  background-color: #274e6e;
+  background-color: #fdfdfd;
 }
 
 .post-container {
