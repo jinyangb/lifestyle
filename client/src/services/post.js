@@ -1,17 +1,8 @@
+// import Client from './api'
+
 import Client from './api'
 
-export const GetPosts = async () => {
-  const res = await Client.get('/discussions')
+export const UpdatePost = async (post_id, data) => {
+  const res = await Client.put(`./discussions/${post_id}`, data)
   return res.data
 }
-
-export const CreatePost = async data => {
-  const res = await Client.post('/discussions', data)
-  return res.data
-}
-
-export const RemovePost = async discussionId => {
-  const res = await Client.delete(`/discussions/${discussionId}`)
-  return res.data
-}
-//

@@ -5,9 +5,9 @@
         <textarea maxlength="255" rows="4" cols="50" class="comment" name="content" type="content" placeholder="Content" :value="input.content" @change="handleChange"/>
         <button :disabled="!input.name" >Submit</button>
       </form>
-    <p3>Forum</p3>
+    <h3>Forum</h3>
     <div v-if="this.posts"  >
-    <ForumCard :post="post" v-for="post in posts" :key="post.id" @deletePost="deletePost"/>
+    <ForumCard :name="post.name" :content="post.content" :id="post.id" v-for="post in posts" :key="post.id" @deletePost="deletePost"/>
     </div>
         <div v-else class="post-container">
       <h3>No content to display :(</h3>
@@ -19,6 +19,7 @@
 import axios from 'axios'
 import ForumCard from '../components/ForumCard.vue'
 import {BASE_URL} from '../globals'
+// import UpdatePost from '../services/post'
 export default {
   name: 'Forum',
     components:{
@@ -75,6 +76,7 @@ mounted: function(){
         console.log(error)
       }
     },
+
   },
   
 }

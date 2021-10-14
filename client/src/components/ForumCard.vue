@@ -2,11 +2,19 @@
   <section class="post">
     <div class="content">
     <div>
-      <h4>{{ post.name }}</h4>
-      <p>{{ post.content }}</p>
+      <h4>{{ name }}</h4>
+      <p>{{ content }}</p>
+      <form v-if="displayForm">
+        <input placeholder="Name" @input="handleNameUpdate"/>
+        <input placeholder="Content" @input="handleContentUpdate"/>
+        <button @click="updateContent">Save</button>
+      </form>
+      <button @click="showForm">Update</button>
+      <button class="delete-button" @click="deletePost(post.id)">X</button>
     </div>
     <div class="delete-button-container">
-      <button class="delete-button" @click="deletePost(post.id)">X</button>
+    </div>
+    <div>
     </div>
     </div>
     
@@ -14,26 +22,50 @@
 </template>
 
 <script>
-
+import {UpdatePost} from '../services/post'
 export default {
   
   name: 'ForumCard',
   props: {
-    post: {}
+    name: String,
+    content: String,
+    id: Number
 },
+data: () => ({
+  displayForm: false,
+  nameChange: '',
+  contentChange:''
+  }),
 mounted: function(){
   // this.getForums()
 },
   methods: {
     deletePost(postId) {
       this.$emit('deletePost', postId)
+    },
+    showForm() {
+      this.displayForm = true
+    },
+    handleNameUpdate(event){
+      this.nameChange = event.target.value
+    },
+    handleContentUpdate(event){
+      this.contentChange = event.target.value
+    },
+    async updateContent() {
+      const data = {
+        "name": this.nameChange,
+        "content": this.contentChange
+      }
+      const res = await UpdatePost(this.id, data)
+      console.log(res)
     }
 } 
 }
 </script>
 
 <style scoped>
-  .post {
+  /* .post {
     display: flex;
     flex-direction: column;
     border: 3px solid black;
@@ -53,11 +85,11 @@ mounted: function(){
     overflow-y: auto;
     font-weight: bold;
     color: black;
-    /* background-image: url("https://i.imgur.com/PtlNNn0t.jpg"); */
-  }
-  .post:hover{
+
+  } */
+  /* .post:hover{
     opacity: 0.8;
-  }
+  } */
   .content {
     display: flex;
     justify-content:space-evenly;
@@ -72,14 +104,16 @@ mounted: function(){
   }
   .delete-button-container {
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
   }
-  .delete-button {
-    background-color: black;
-    border-radius: 5px;
+  .delete-button:hover {
+    background-color: rgb(0, 95, 107);
+    border-radius: 2px;
     border: none;
     color: #64b3f4;
+    opacity: 0.8;
+
   }
 
 </style>
