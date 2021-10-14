@@ -29,32 +29,33 @@ mounted: function(){
 
 <style scoped>
   .post {
+    align-content: center;
     display: flex;
-    flex-direction: column;
-    border: 8px solid black;
-    border-radius: 15px;
+    flex-direction: column-reverse;
+    border: 4px solid black;
+    border-radius: 20px;
     justify-content:space-evenly;
     padding: 20px;
     margin: 25px;
     width:500px;
-    cursor: pointer;
+    /* cursor: pointer; */
     /* background-color: #c2e59c; 
     background: -webkit-linear-gradient(to right, #c2e59c, #64b3f4); 
     background: linear-gradient(to right, #c2e59c, #64b3f4);  */
-    border-top-left-radius : 30px;
-    border-bottom-right-radius : 30px;
-    transition: all 0.2s;    
+    /* border-top-left-radius : 30px;
+    border-bottom-right-radius : 30px; */
+    /* transition: all 0.2s;     */
     overflow-x: auto;
     overflow-y: auto;
-    font-weight: bold;
+    /* font-weight:bolder; */
     color: black;
     /* background-image: url("https://i.imgur.com/PtlNNn0t.jpg"); */
   }
 
   .content {
     display: flex;
-    justify-content:space-evenly;
-    width:500px;
+    justify-content:center;
+    width: 500px;
   }
 
 

@@ -10,7 +10,7 @@
         <button @click="updateContent">Save</button>
       </form>
       <button @click="showForm">Update</button>
-      <button class="delete-button" @click="deletePost(post.id)">X</button>
+      <button class="delete-button" @click="deletePost(id)">X</button>
     </div>
     <div class="delete-button-container">
     </div>
@@ -37,10 +37,12 @@ data: () => ({
   contentChange:''
   }),
 mounted: function(){
+
 },
   methods: {
-    deletePost(postId) {
-      this.$emit('deletePost', postId)
+    deletePost(id) {
+      this.$router.go()
+      this.$emit('deletePost', id)
     },
     showForm() {
       this.displayForm = true
@@ -52,6 +54,7 @@ mounted: function(){
       this.contentChange = event.target.value
     },
     async updateContent() {
+      this.$router.go()
       const data = {
         "name": this.nameChange,
         "content": this.contentChange
@@ -63,56 +66,3 @@ mounted: function(){
 }
 </script>
 
-<style scoped>
-  /* .post {
-    display: flex;
-    flex-direction: column;
-    border: 3px solid black;
-    border-radius: 15px;
-    justify-content:space-evenly;
-    padding: 20px;
-    margin: 25px;
-    width:500px;
-    cursor: pointer;
-    background-color: #c2e59c; 
-    background: -webkit-linear-gradient(to right, #c2e59c, #64b3f4); 
-    background: linear-gradient(to right, #c2e59c, #64b3f4); 
-    border-top-left-radius : 30px;
-    border-bottom-right-radius : 30px;
-    transition: all 0.2s;    
-    overflow-x: auto;
-    overflow-y: auto;
-    font-weight: bold;
-    color: black;
-
-  } */
-  /* .post:hover{
-    opacity: 0.8;
-  } */
-  .content {
-    display: flex;
-    justify-content:space-evenly;
-    width:500px;
-  }
-  .date {
-    display: flex; 
-    justify-content:space-evenly;
-    align-items: flex-start;
-    height: 20px;
-    padding: 5px;
-  }
-  .delete-button-container {
-    position: relative;
-    width: 10px;
-    height: 10px;
-  }
-  .delete-button:hover {
-    background-color: rgb(0, 95, 107);
-    border-radius: 2px;
-    border: none;
-    color: #64b3f4;
-    opacity: 0.8;
-
-  }
-
-</style>

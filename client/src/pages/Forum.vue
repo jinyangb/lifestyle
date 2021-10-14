@@ -83,7 +83,7 @@ mounted: function(){
 </script>
 
 <style scoped>
-.container {
+/* .container {
   background-color: #1282eb; 
   background: -webkit-linear-gradient(to right, #1282eb, #64b3f4); 
   background: linear-gradient(to right, #1282eb, #64b3f4);
@@ -92,7 +92,7 @@ mounted: function(){
   width: 300px;
   justify-content:center;
   margin: 40px;
-}
+} */
 
 .home{
   display: flex;
