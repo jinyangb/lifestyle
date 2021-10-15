@@ -53,3 +53,7 @@ Click Heroku link at the top of the readme. Once you are redirected you can find
 [Google](google.com)
 
 [Healthline](https://www.healthline.com/health/how-long-does-it-take-to-build-muscle#diet)
+
+[Coachmag](https://www.coachmag.co.uk/full-body-workouts/6179/a-four-week-gym-routine-to-get-big-and-lean)
+
+[Delicious](https://www.delicious.com.au/recipes/collections/gallery/74-healthy-high-protein-recipes/hdpxdv1y)
