@@ -1,4 +1,3 @@
-require('dotenv').config()
 module.exports = {
   development: {
     database: 'lifestyle_development',
