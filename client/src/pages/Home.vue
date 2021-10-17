@@ -1,6 +1,7 @@
 <template>
 <div class="bg">
   <section class="post">
+  <img alt="Dumbbells" src="https://i.imgur.com/djtM7oc.jpg">
   <h2>How do muscles grow?</h2>
   <p>Skeletal muscle is the most adaptable tissue in your body. When you do extreme exercise, like weightlifting, your muscle fibers undergo trauma, or what’s called muscle injury. When your muscles are injured this way, satellite cells on the outside of the muscle fibers become activated. They attempt to repair the damage by joining together and, as a result, increasing the muscle fiber.
 
@@ -11,6 +12,7 @@
       repairing muscle cells
       managing muscle mass
       For example, resistance moves help your body release growth hormone from your pituitary gland. How much is released depends on the intensity of the exercise you’ve done. Growth hormone triggers your metabolism and helps turn amino acids into protein to bulk up your muscles.</p>
+  <img alt="Dumbbell" src="https://i.imgur.com/DgL9n1D.jpg">
   <h2>How to build muscle</h2>
     <p>Spending your whole day in the gym isn’t necessary to build muscle. Weight training for 20 to 30 minutes, 2 to 3 times a week is enough to see results. You should try to target all your major muscle groups at least twice throughout your weekly workouts.
 
@@ -27,6 +29,7 @@
       When you lift, you should try to do between 8 and 15 repetitions in a row. That’s one set. Wait a minute in between sets to rest. Then complete another set of the same length. Take approximately 3 seconds to lift or push your weight into place. Then hold that position for a full second and take another slow 3 seconds to lower the weight.
 
     </p>
+  <img alt="stairs" src="https://i.imgur.com/EJ2Epif.jpg">
   <h2>Cardio and muscles</h2>
     <p>Aerobic exercise, otherwise known as cardio, raises your heart and breathing rates. It strengthens your cardiovascular system.
 
@@ -38,6 +41,7 @@
 
       Bottom line: Working out with both cardio and resistance training exercises will keep your body and heart healthy and strong.
     </p>
+  <img alt="abs" src="https://i.imgur.com/FGEEY03.jpg">
   <h2>Diet and muscles</h2>
     <p>The foods you eat may help you build more muscle, too. Your protein intake, in particular, plays an important role in fueling your muscles. How much protein should you eat? The current guideline is around 0.8 gram (g) per kilogram (kg) of your body weight each day if you’re over 19 years old.
 

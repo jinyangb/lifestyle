@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="photo">
       <form @submit.prevent="submitPost">
         <input maxlength="80" name="name" type="text" placeholder="Name" :value="input.name" @change="handleChange"/>
         <textarea maxlength="255" rows="4" cols="50" class="comment" name="content" type="content" placeholder="Content" :value="input.content" @change="handleChange"/>
@@ -115,10 +115,10 @@ button:not(:disabled) {
     cursor: pointer;
   background-color: #fdfdfd;
 }
-
 .post-container {
   display: flex;
   flex-flow: column-reverse;
   align-items: center;
 }
+
 </style>

@@ -12,8 +12,6 @@
 </template>
 
 <script>
-
-
 export default {
   name: 'App',
   components: {
@@ -29,10 +27,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   padding-top: 40px;
-  /* margin-top: 90px; */
   background-color: black;
 }
-
 #nav a {
   font-weight: bold;
   color:gray;
@@ -40,8 +36,8 @@ export default {
   margin: 20px
   ;
 }
-
 #nav a.router-link-exact-active {
   color: rgb(32, 138, 173);
 }
+
 </style>

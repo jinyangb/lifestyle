@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg">
     <div v-for="recipe in recipes" :key="recipe.id" >
     <RecipeCard :recipe="recipe" />
 

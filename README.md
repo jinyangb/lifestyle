@@ -37,7 +37,7 @@ A lifestyle based app where you can find common workout and instructions on how 
 
 **_Getting Started_**
 
-Click Heroku link at the top of the readme. Once you are redirected you can find instructions on workouts and recipes.
+Click the Heroku link at the top of the readme. Once you are redirected you can find instructions on workouts and recipes as well as discuss your experiences.
 
 ---
 
