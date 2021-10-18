@@ -15,9 +15,9 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 // app.get('/', (req, res) => res.json({ message: 'Server Works' }))
 app.use('/api', AppRouter)
-app.use('/', (req, res) => {
-  res.send('<h1>Hello</h1>')
-})
+// app.use('/', (req, res) => {
+//   res.send('<h1>Hello</h1>')
+// })
 
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, 'client/build')))
