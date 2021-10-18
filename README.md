@@ -4,7 +4,7 @@
 
 #### By: Jin Yang Brancalhao
 
-[Git](https://github.com/jinyangb/lifestyle) | [Trello](https://trello.com/b/RgjNNQgU/lifestyle) | [Lifestyle]()
+[Git](https://github.com/jinyangb/lifestyle) | [Trello](https://trello.com/b/RgjNNQgU/lifestyle) | [Lifestyle](https://safe-ridge-60881.herokuapp.com/)
 
 ---
 
