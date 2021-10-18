@@ -5,7 +5,6 @@
       <router-link to="/workouts">Workouts</router-link> |
       <router-link to="/recipes">Recipes</router-link> |
       <router-link to="/forum">Forum</router-link> 
-      <!-- <router-link to="/about">About</router-link> -->
     </div>
     <router-view/>
   </div>
