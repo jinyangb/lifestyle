@@ -17,7 +17,7 @@
 <script>
 import axios from 'axios'
 import ForumCard from '../components/ForumCard.vue'
-import {BASE_URL} from '../globals'
+import {BASE_URL} from '../services/api'
 
 export default {
   name: 'Forum',

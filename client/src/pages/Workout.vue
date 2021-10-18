@@ -9,7 +9,7 @@
 <script>
 import WorkoutCard from '../components/WorkoutCard.vue'
 import axios from 'axios'
-import {BASE_URL} from '../globals'
+import {BASE_URL} from '../services/api'
 export default {
   name: 'Workout',
     components:{

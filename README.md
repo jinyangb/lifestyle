@@ -20,6 +20,7 @@ A lifestyle based app where you can find common workout and instructions on how 
 - Express
 - Heroku
 - VUE
+- Sequelize
 
 #### Workout Page
 
